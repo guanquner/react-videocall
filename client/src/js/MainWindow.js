@@ -33,7 +33,7 @@ function MainWindow({ startCall }) {
     <div className="container main-window">
       <div>
         <h3>
-          Hi, your ID is
+          你好小可爱！你的ID是
           <input
             type="text"
             className="txt-clientId"
@@ -41,14 +41,14 @@ function MainWindow({ startCall }) {
             readOnly
           />
         </h3>
-        <h4>Get started by calling a friend below</h4>
+        <h4>欢迎来到quner的WebRtc通话，使用端到端技术，确保安全私密！</h4>
       </div>
       <div>
         <input
           type="text"
           className="txt-clientId"
           spellCheck={false}
-          placeholder="Your friend ID"
+          placeholder="输入你朋友的ID通话吧"
           onChange={(event) => setFriendID(event.target.value)}
         />
         <div>
